@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <listeners>
+    <listener class-name="yourStoreUtilities.TestNGListener"/>
+  </listeners>
+  <test name="Register(failed)">
+    <classes>
+      <class name="yourStoreTestCases.RegisterTestCase">
+        <methods>
+          <include name="init"/>
+          <include name="Register"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- yourStoreTestCases.RegisterTestCase -->
+    </classes>
+  </test> <!-- Register(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

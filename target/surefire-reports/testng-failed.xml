@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="BankingTestCases.LoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- BankingTestCases.LoginTest -->
+      <class name="YourStoreTestCases.MyAccountTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="myAccount"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- YourStoreTestCases.MyAccountTestCase -->
+      <class name="BankingTestCases.PayBillTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- BankingTestCases.PayBillTestCase -->
+      <class name="YourStoreTestCases.RegisterTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Register"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- YourStoreTestCases.RegisterTestCase -->
+      <class name="YourStoreTestCases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- YourStoreTestCases.LoginTest -->
+      <class name="BankingRough.loginTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="setExtent"/>
+          <include name="login"/>
+          <include name="init"/>
+          <include name="TestReports"/>
+        </methods>
+      </class> <!-- BankingRough.loginTestCase -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
